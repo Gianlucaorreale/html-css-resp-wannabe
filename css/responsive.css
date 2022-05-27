@@ -6,10 +6,16 @@
     h1 {
         margin-left: 23rem;
     }
+    .col-left img {
+        max-width: 70%;
+    }
     
     
   }
 
   @media screen and (max-width:480px) {
-
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
   }
